@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='bg-gray-800'>
             <div className='p-8 md:w-[80%] md:mx-auto px-5 text-white mt-24'>
                 {/* Logos and Links */}
-                <div className='grid grid-cols-1 md:grid-cols-5 gap-5'>
+                <div className='grid grid-cols-2 md:grid-cols-5 gap-5'>
                     <div>
                         <div className='pt-5'>
                             <h3 className='font-bold text-3xl'>Job Hunter</h3>

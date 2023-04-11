@@ -19,7 +19,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className='mx-auto lg:mx-0 text-lg font-bold lg:text-3xl'>
-                        <h3>Job Hunter</h3>
+                        <Link to="">Job Hunter</Link>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
