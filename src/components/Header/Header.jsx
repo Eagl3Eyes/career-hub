@@ -4,8 +4,8 @@ import { Bars3Icon } from '@heroicons/react/24/solid';
 
 const Header = () => {
     return (
-        <div>
-            <div className="navbar md:w-[80%] md:mx-auto bg-base-100 px-5">
+        <div className='bg-indigo-50'>
+            <div className="navbar md:w-[80%] md:mx-auto px-5 bg-indigo-50">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex="0" className="lg:hidden">

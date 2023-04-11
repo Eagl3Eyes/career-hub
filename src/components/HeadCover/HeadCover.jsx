@@ -4,7 +4,7 @@ import ProfessionalImg from '../../assets/images/P3OLGJ1 copy 1.png';
 
 const HeadCover = () => {
     return (
-        <div>
+        <div className='bg-indigo-50'>
             <div className='md:w-[80%] md:mx-auto px-5 md:flex justify-center items-center'>
                 <div>
                     <h1 className=' text-4xl text-center lg:text-left lg:text-6xl font-bold lg:leading-normal'>One Step <br /> Closer To Your <br /> <span className='text-primary'>Dream Job</span></h1>
