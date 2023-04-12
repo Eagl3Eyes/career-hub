@@ -8,7 +8,9 @@ import './index.css';
 import Main from './components/Layout/Main';
 import Home from './components/Home/Home';
 import Statistics from './components/Statistics/Statistics';
+import Appliedjobs from './components/Appliedjobs/Appliedjobs';
 import Jobdetails from './components/Jobdetails/Jobdetails';
+
 
 
 
@@ -26,10 +28,10 @@ const router = createBrowserRouter([
         path: "/statistics",
         element: <Statistics></Statistics>,
       },
-      // {
-      //   path: "/appliedjobs",
-      //   element: <Appliedjobs/>,
-      // },
+      {
+        path: "/appliedjobs",
+        element: <Appliedjobs></Appliedjobs>,
+      },
       {
         path:"/jobdetails/:id",
         element: <Jobdetails></Jobdetails>,
