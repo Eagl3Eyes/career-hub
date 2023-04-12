@@ -8,6 +8,7 @@ import './index.css';
 import Main from './components/Layout/Main';
 import Home from './components/Home/Home';
 import Statistics from './components/Statistics/Statistics';
+import Jobdetails from './components/Jobdetails/Jobdetails';
 
 
 
@@ -29,11 +30,11 @@ const router = createBrowserRouter([
       //   path: "/appliedjobs",
       //   element: <Appliedjobs/>,
       // },
-      // {
-      //   path:"/jobdetails/:id",
-      //   element:<Jobdetails/>,
-      //   loader:({params})=>fetch(`/jobdetails/${params.id}`),
-      // },
+      {
+        path:"/jobdetails/:id",
+        element: <Jobdetails></Jobdetails>,
+        loader:({params})=>fetch(`/jobdetails/${params.id}`),
+      },
       // {
       //   path: "/blog",
       //   element: <Blog/>,
