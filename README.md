@@ -17,3 +17,4 @@
 9. 404 page added
 10. Blog pages
 11. Responsive for mobile and desktop
+12. Footer
