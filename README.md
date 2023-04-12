@@ -2,6 +2,9 @@
 #Assignment-9
 
 
+#Live Server Link: https://career-hub-eagl3eyes.netlify.app/
+
+
 #Features
 1. Workable Navbar
 2. Homepage have Banner, Category List section, and Featured job section
