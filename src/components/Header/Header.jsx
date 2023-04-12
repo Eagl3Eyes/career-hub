@@ -31,7 +31,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className='px-4 py-3 text-sm rounded text-white bg-gradient-to-r from-blue-500 to-purple-500'>Apply Now</button>
+                    <button className='px-4 py-3 text-base font-semibold rounded text-white bg-gradient-to-r from-blue-500 to-purple-500'>Star Applying</button>
                 </div>
             </div>
         </div>
