@@ -10,6 +10,7 @@ import Home from './components/Home/Home';
 import Statistics from './components/Statistics/Statistics';
 import Appliedjobs from './components/Appliedjobs/Appliedjobs';
 import Jobdetails from './components/Jobdetails/Jobdetails';
+import Error from './components/Error/Error';
 
 
 
@@ -37,15 +38,14 @@ const router = createBrowserRouter([
         element: <Jobdetails></Jobdetails>,
         loader:({params})=>fetch(`/jobdetails/${params.id}`),
       },
-      // {
-      //   path: "/blog",
-      //   element: <Blog/>,
-      // },
-      
-      // {
-      //   path: "/*",
-      //   element: <Error/>,
-      // },
+      {
+        path: "/blog",
+        element: <Blog/>,
+      },
+      {
+        path: "/*",
+        element: <Error></Error>,
+      },
     ],
   },
 ]);
