@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className='grid grid-cols-2 md:grid-cols-5 gap-5'>
                     <div>
                         <div className='pt-5'>
-                            <h3 className='font-bold text-3xl'>Job Hunter</h3>
+                            <h3 className='font-bold text-3xl'>JobHunter</h3>
                             <p className=' text-slate-400'>There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</p>
                         </div>
                         <div className='py-4'>
@@ -56,7 +56,7 @@ const Footer = () => {
                 <hr />
                 <div className='flex justify-between py-8'>
                     <div className=' text-slate-400'>
-                        &copy;{year} CareerHub. All Rights Reserved
+                        &copy;{year} JobHunter. All Rights Reserved
                     </div>
                     <div className=' text-slate-400'>
                         Powered by Eagl3Eyes

@@ -19,12 +19,12 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className='mx-auto lg:mx-0 text-lg font-bold lg:text-3xl'>
-                        <Link to="">Job Hunter</Link>
+                        <Link to="">JobHunter</Link>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu-horizontal px-1 gap-5">
-                        <li className='m-3 lg:m-0 font-bold hover:text-purple-700'><Link to="">Home</Link></li>
+                        <a className='active m-3 lg:m-0 font-bold hover:text-purple-700'><Link  to="">Home</Link></a>
                         <li className='m-3 lg:m-0 font-bold hover:text-purple-700'><Link to="/statistics">Statistics</Link></li>
                         <li className='m-3 lg:m-0 font-bold hover:text-purple-700'><Link to="/appliedjobs">Applied Jobs</Link></li>
                         <li className='m-3 lg:m-0 font-bold hover:text-purple-700'><Link to="/blog">Blog</Link></li>
