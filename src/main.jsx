@@ -11,6 +11,7 @@ import Statistics from './components/Statistics/Statistics';
 import Appliedjobs from './components/Appliedjobs/Appliedjobs';
 import Jobdetails from './components/Jobdetails/Jobdetails';
 import Error from './components/Error/Error';
+import Blog from './components/Blog/Blog';
 
 
 
@@ -40,7 +41,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/blog",
-        element: <Blog/>,
+        element: <Blog></Blog>,
       },
       {
         path: "/*",

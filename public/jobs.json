@@ -5,7 +5,6 @@
       "company": "Google LLC.",
       "type": {
         "remote": "Remote",
-        "onsite": "Onsite",
         "fullTime": "Full-time"
       },
       "location": "New York",
@@ -17,27 +16,7 @@
       "requirement": "Requirement 1, Requirement 2, Requirement 3",
       "experience": "2-3 Years",
       "education": "Bachelor's degree in Computer Science",
-      "image": "https://raw.githubusercontent.com/smmunna/talent-match-job-service/main/src/assets/Logo/google-1-1%201-1.png"
-    },
-    {
-      "id": "60a91a53498a8029b9ac6e49",
-      "title": "Software Engineer",
-      "company": "Tesla",
-      "type": {
-        "remote": "Onsite",
-        "onsite": "Onsite",
-        "fullTime": "Full-time"
-      },
-      "location": "London",
-      "salary": "100-200k Per Month",
-      "phone": "(533) 456-7890",
-      "email": "amber@xyzcorp.com",
-      "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-      "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-      "requirement": "Requirement 1, Requirement 2, Requirement 3",
-      "experience": "1-2 Years",
-      "education": "Master's degree in Computer Science",
-      "image": "https://raw.githubusercontent.com/smmunna/talent-match-job-service/main/src/assets/Logo/tesla-9%201.png"
+      "image": "https://raw.githubusercontent.com/Eagl3Eyes/project-img-resources/main/images/google-1-1%201.png"
     },
     {
       "id":"5fb6a5a6b5ee6e375aa2a5e6",
@@ -45,7 +24,6 @@
       "company": "Netflix",
       "type": {
         "remote": "Onsite",
-        "onsite": "Onsite",
         "fullTime": "Full-time"
       },
       "location": "Wasington",
@@ -57,7 +35,26 @@
       "requirement": "Requirement 1, Requirement 2, Requirement 3",
       "experience": "5-7 Years",
       "education": "Bachelor's degree in Computer Science or equivalent",
-      "image": "https://raw.githubusercontent.com/smmunna/talent-match-job-service/main/src/assets/Logo/netflix-4%201.png"
+      "image": "https://raw.githubusercontent.com/Eagl3Eyes/project-img-resources/main/images/netflix-4%201.png"
+    },
+    {
+      "id": "60a91a53498a8029b9ac6e49",
+      "title": "Software Engineer",
+      "company": "Tesla",
+      "type": {
+        "remote": "Onsite",
+        "fullTime": "Full-time"
+      },
+      "location": "London",
+      "salary": "100-200k Per Month",
+      "phone": "(533) 456-7890",
+      "email": "amber@xyzcorp.com",
+      "description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+      "responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+      "requirement": "Requirement 1, Requirement 2, Requirement 3",
+      "experience": "1-2 Years",
+      "education": "Master's degree in Computer Science",
+      "image": "https://raw.githubusercontent.com/Eagl3Eyes/project-img-resources/main/images/tesla-9%201.png"
     },
     {
       "id": "60712a0df0a68b01cf04e012",
@@ -65,10 +62,9 @@
       "company": "Google LLC.",
       "type": {
         "remote": "Remote",
-        "onsite": "Onsite",
         "fullTime": "Full-time"
       },
-      "location": "Jamalpur",
+      "location": "United State",
       "salary": "120-220k Per Month",
       "phone": "(123) 456-7890",
       "email": "joe.smith@123llc.com",
@@ -77,7 +73,7 @@
       "requirement": "Requirement 1, Requirement 2, Requirement 3",
       "experience": "5-7 Years",
       "education": "Bachelor's degree in Computer Science or equivalent",
-      "image": "https://raw.githubusercontent.com/smmunna/talent-match-job-service/main/src/assets/Logo/google-1-1%201.png"
+      "image": "https://raw.githubusercontent.com/Eagl3Eyes/project-img-resources/main/images/google-1-1%201.png"
     },
     {
       "id": "5d873f836c534e91a8d7fa3e",
@@ -108,7 +104,7 @@
         "onsite": "Onsite",
         "fullTime": "Full-time"
       },
-      "location": "Dhaka, BD",
+      "location": "New York",
       "salary": "220-320k Per Month",
       "phone": "(123) 456-7890",
       "email": "sm.munna@123llc.com",

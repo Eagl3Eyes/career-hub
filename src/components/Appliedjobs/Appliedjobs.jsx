@@ -33,6 +33,17 @@ const Appliedjobs = () => {
         <div className='md:w-[80%] md:mx-auto px-5 p-5 mt-5'>
             <h3 className='text-center font-bold py-5 text-3xl'>Applied Jobs</h3>
 
+            <div className='grid justify-end'>
+                <div className="dropdown">
+                    <label tabIndex={0} className="btn bg-white text-black m-1">Filter By</label>
+                    <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box">
+                        <li><a>OnSite</a></li>
+                        <li><a>Remote</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
             {newData.map(data => (
                 <div key={data.id}>
                     <div className='border-2 p-4 m-2 mt-4 rounded-md grid grid-cols-1 md:grid-cols-3 items-center'>
