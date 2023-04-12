@@ -13,9 +13,10 @@ const Header = () => {
                         </label>
                         <ul tabIndex="0" className="menu-compact dropdown-content mt-3 p-2 bg-yellow-100 rounded-box w-52">
                             <li><Link to="">Home</Link></li>
-                            <li><Link to="/statistics">Statistics</Link></li>
                             <li><Link to="/appliedjobs">Applied Jobs</Link></li>
-                            <li><Link to="/blog">Blog</Link></li>
+                            <li><Link to="/statistics">Statistics</Link></li>
+                            <li><Link to="/blog">Blogs</Link></li>
+                            <li><Link to="/jobs">Old Jobs</Link></li>
                         </ul>
                     </div>
                     <div className='mx-auto lg:mx-0 text-lg font-bold lg:text-3xl'>
@@ -25,13 +26,14 @@ const Header = () => {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu-horizontal px-1 gap-5">
                         <a className='active m-3 lg:m-0 font-bold hover:text-purple-700'><Link  to="">Home</Link></a>
-                        <li className='m-3 lg:m-0 font-bold hover:text-purple-700'><Link to="/statistics">Statistics</Link></li>
                         <li className='m-3 lg:m-0 font-bold hover:text-purple-700'><Link to="/appliedjobs">Applied Jobs</Link></li>
-                        <li className='m-3 lg:m-0 font-bold hover:text-purple-700'><Link to="/blog">Blog</Link></li>
+                        <li className='m-3 lg:m-0 font-bold hover:text-purple-700'><Link to="/statistics">Statistics</Link></li>
+                        <li className='m-3 lg:m-0 font-bold hover:text-purple-700'><Link to="/blog">Blogs</Link></li>
+                        <li className='m-3 lg:m-0 font-bold hover:text-purple-700'><Link to="/jobs">Old Jobs</Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className='px-4 py-3 text-base font-semibold rounded text-white bg-gradient-to-r from-blue-500 to-purple-500'>Star Applying</button>
+                    <button className='px-4 py-3 text-base font-semibold rounded text-white bg-gradient-to-r from-blue-500 to-purple-500'>Start Applying</button>
                 </div>
             </div>
         </div>
